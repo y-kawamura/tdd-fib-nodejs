@@ -9,4 +9,7 @@ describe('Fibonacci function test', () => [
   it('fib(1) = 1', () => {
     assert.equal(fib(1), 1);
   }),
+  it('fib(2) = 1', () => {
+    assert.equal(fib(2), 1);
+  }),
 ]);
